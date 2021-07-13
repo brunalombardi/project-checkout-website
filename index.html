@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mercados Artesanais</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="projeto e-commerce mercados artesanais">
+    <meta name="language" content="pt-BR">
+    <link rel="stylesheet" type="text/css" href="styles/style2.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <body>
+        <div class="super_container">
+
+            <header class="header">
+                <!-- TOP BAR -->
+                <div class="top_bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col d-flex flex-row">
+                                <div class="top_bar_contact_item">
+                                    <div class="top_bar_icon"> <i class="fa fa-top fa-whatsapp"></i> (31) 98904 - 8736</div>
+                                </div>
+                            </div>
+                            <div class="top_bar_user">
+                                <div><a href="#">Quero ser vendedor</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <!-- HEADER MAIN -->
+        <div class="header_main">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-sm-3 col-3 order-1">
+                        <div class="logo_container">
+                            <div class="logo"><img src="img\thumbnail_logo-teste.png" alt="Mercados Artesanais" /></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                        <div class="header_search">
+                            <div class="header_search_content">
+                                <div class="header_search_form_container">
+                                    <form action="#" class="header_search_form clearfix">
+                                        <div class="custom_dropdown">
+                                            <div class="custom_dropdown_list">
+                                                <span class="custom_dropdown_placeholder clc">Todas categorias</span>
+                                                <i class="fa fa-menu fa-chevron-down"></i>
+                                                <ul class="custom_list clc">
+                                                    <li><a class="clc" href="#">Todas as categorias</a></li>
+                                                    <li><a class="clc" href="#">Moda</a></li>
+                                                    <li><a class="clc" href="#">Alimentos</a></li>
+                                                    <li><a class="clc" href="#">Casa</a></li>
+                                                    <li><a class="clc" href="#">Cosméticos</a></li>
+                                                    <li><a class="clc" href="#">Eco</a></li>
+                                                    <li><a class="clc" href="#">Artesanatos</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><input type="search" required class="header_search_input" placeholder="Buscar por produtos">
+
+                                        <button type="submit" class="header_search_button trans_300" value="Submit"> <i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-9 order-lg-3 order-2 text-lg-left text-right">
+                        <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+                            <div class="wishlist d-flex flex-row align-items-center justify-content-end">
+                                <div class="wishlist_icon"><i class="fa fa-user"></i>
+                                </div>
+                            </div>
+
+                            <div class="cart">
+                                <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+                                    <div class="cart_icon">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <div class="cart_count"><span>0</span></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN NAV -->
+        <nav class="main_nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="main_nav_content d-flex flex-row">
+
+                            <div class="cat_menu_burger_container">
+                                <div class="cat_menu_burger_title d-flex flex-row align-items-center justify-content-start">
+                                    <div class="cat_burger"><span></span><span></span><span></span></div>
+                                    <div class="cat_menu_burger_text">Todas as categorias</div>
+                                </div>
+                                <!--  <ul class="cat_menu_burger">
+                                    <li><a href="#"></li>
+                                   
+                                </ul> -->
+                            </div>
+
+                            <div class="main_nav_menu ml-auto">
+                                <ul class="standard_dropdown main_nav_dropdown">
+                                    <li><a href="#">Moda<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Alimentos<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Casa<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Cosméticos<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Eco<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Artesanatos<i class="fas fa-chevron-down"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="menu_trigger_container ml-auto">
+                                <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
+                                    <div class="menu_burger">
+                                        <div class="menu_trigger_text">menu</div>
+                                        <div class="cat_burger menu_burger_inner"><span></span><span></span><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- PAGE MENU -->
+        <div class="page_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="page_menu_content">
+                            <div class="page_menu_search">
+                                <form action="#">
+                                    <input type="search" required class="page_menu_search_input" placeholder="Buscar por produtos...">
+                                </form>
+                            </div>
+                            <ul class="page_menu_nav">
+
+                                <li class="page_menu_item">
+                                    <a href="#">Home<i class="fa fa-angle-down"></i></a>
+                                </li>
+                                <li class="page_menu_item"><a href="#">Moda<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="">Alimentos<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="">Casa<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="">Cosméticos<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="">Eco<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="">Artesanatos<i class="fa fa-angle-down"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+
+        <!-- SLIDE -->
+        <div class="slide_home">
+            <div class="slide_home_background" style="background-image:url(https://food-images.files.bbci.co.uk/food/recipes/christmasbiscuits_93733_16x9.jpg)"></div>
+            <div class="slide_home_container">
+                <div class="slide_home_dots"></div>
+                <div class="owl-carousel owl-theme slide_home_slider">
+
+                    <div class="owl-item">
+                        <div class="slide_home_item">
+                            <div class="container fill_height">
+                                <div class="row fill_height">
+                                    <div class="col-lg-4 col-md-6 fill_height">
+                                        <div class="slide_home_content">
+                                            <div class="slide_home_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+                                            <div class="slide_home_text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos</div>
+                                            <div class="button slide_home_button"><a href="#">Saiba mais</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE PRODUCTS 1-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="h2-center">Presentes para agora</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="n-bg carousel-control left" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-carrousel fa-angle-left"></i>
+                        </a>
+                        <a class="n-bg carousel-control right" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-carrousel fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT US -->
+        <div class="info_item">
+            <div class="container fill_height">
+                <div class="row fill_height">
+                    <div class="col-lg-6 col-md-auth fill_height">
+                        <div class="info_content">
+                            <div class="info_title">Quem somos?</div>
+                            <div class="info_text">Lorem ipsum ligula conubia mi ultricies diam ultricies mattis hac, ligula diam fringilla accumsan cursus felis porta ultricies nec, tincidunt elit felis turpis ante odio potenti velit. nisl metus arcu at eleifend nostra.</div>
+                            <div class="button slide_home_button info-button"><a href="#">Saiba mais</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE PRODUCTS 2-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="h2-center">Mais vendidos por categoria</h2>
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel2" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img\rosas.jpeg" class="img-responsive" alt="" /> </div>
+                                            <div class="thumb-content">
+                                                <h4>Caminha de mesa crochê</h4>
+                                                <p class="item-price"><span>R$220,00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel2" data-slide="prev">
+                            <i class="fa fa-carrousel fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel2" data-slide="next">
+                            <i class="fa fa-carrousel fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SELLER -->
+        <div class="info_item">
+            <div class="container fill_height">
+                <div class="row center-row fill_height">
+                    <div class="col-lg-6 col-md-auth fill_height">
+                        <div class="info_content">
+                            <div class="info_title2">Quer ser um vendedor?</div>
+                            <div class="info_text2">Lorem ipsum ligula conubia mi ultricies diam ultricies mattis hac, ligula diam fringilla accumsan cursus felis porta ultricies nec, tincidunt elit felis turpis ante odio potenti velit. nisl metus arcu at eleifend nostra.</div>
+                            <center>
+                                <div class="button slide_home_button info-button"><a href="#">Saiba mais</a></div>
+                            </center>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 footer_col">
+                        <div class="footer_column">
+                            <div class="footer_title">Canais de atendimento</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-footer fa-linkedin"></i>Linkedin</a></li>
+                                    <li><a href="#"><i class="fa fa-footer fa-whatsapp"></i>Whatsapp</a></li>
+                                    <li><a href="#"><i class="fa fa-footer fa-facebook"></i>Facebook</a></li>
+                                    <li><a href="#"><i class="fa fa-footer fa-instagram"></i>Instagram</a></li>
+                                    <li><a href="#"><i class="fa fa-footer fa-youtube"></i>Youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-2">
+                        <div class="footer_column">
+                            <div class="footer_title">Ajuda</div>
+                            <ul class="footer_list">
+                                <li><a href="#">Quem somos</a></li>
+                                <li><a href="#">Termos de Uso</a></li>
+                                <li>
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li><a href="#">Fale Conosco</a></li>
+                                <li>
+                                    <a href="#">Prazos de Entrega</a>
+                                </li>
+                                <li>
+                                    <a href="#">Política de Troca e Devolução</a>
+                                </li>
+                                <li>
+                                    <a href="#">Política de Privacidade</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="footer_column">
+                            <div class="footer_title">Meus pedidos</div>
+                            <ul class="footer_list">
+                                <li><a href="#">Acompanhe seus Pedidos</a></li>
+                                <li><a href="#">Editar cadastro</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="logo_container">
+                        <div class="logo"><img src="img\thumbnail_logo-teste.png" alt="Mercados Artesanais" /></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        </div>
+        <script src="plugins/js/jquery-3.3.1.min.js"></script>
+        <script src="styles/bootstrap4/popper.js"></script>
+        <script src="styles/bootstrap4/bootstrap.min.js"></script>
+        <script src="plugins/js/greensock,_TimelineMax.min.js+scrollmagic,_ScrollMagic.min.js+greensock,_animation.gsap.min.js+greensock,_ScrollToPlugin.min.js.pagespeed.jc.TWF3tvWfFP.js"></script>
+        <script>
+            eval(mod_pagespeed_x8CakUBXmJ);
+        </script>
+        <script>
+            eval(mod_pagespeed_$y3A$Lt1kj);
+        </script>
+        <script>
+            eval(mod_pagespeed_P1Sh7qjcF9);
+        </script>
+        <script>
+            eval(mod_pagespeed_z5qXXkaQ_q);
+        </script>
+        <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+        <script src="plugins/slick-1.8.0/slick.js"></script>
+        <script src="plugins/js/banner.js"></script>
+        <script>
+            eval(mod_pagespeed_VosBi8xjjG);
+        </script>
+        <script>
+            eval(mod_pagespeed_UqhG_y_NXc);
+        </script>
+
+    </body>
+
+</html>
